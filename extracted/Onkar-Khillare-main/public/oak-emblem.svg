@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Definitions for gradients & reusable filters -->
+  <defs>
+    <filter id="subtle-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12" flood-color="#0A2540" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, -10)">
+    <!-- Top Network Globe Grid -->
+    <!-- Network Arcs -->
+    <path d="M 120 145 C 135 85, 265 85, 280 145" fill="none" stroke="#0A2540" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 150 115 C 180 75, 220 75, 250 115" fill="none" stroke="#0A2540" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M 190 78 C 220 90, 255 120, 275 160" fill="none" stroke="#F26522" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 235 82 C 265 110, 290 140, 305 175" fill="none" stroke="#F26522" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Network Dots (Nodes) -->
+    <!-- Navy Nodes (Left) -->
+    <circle cx="150" cy="115" r="5" fill="#0A2540" />
+    <circle cx="190" cy="78" r="6" fill="#0A2540" />
+    <circle cx="235" cy="82" r="5.5" fill="#0A2540" />
+    
+    <!-- Orange Nodes (Right) -->
+    <circle cx="250" cy="74" r="6.5" fill="#F26522" />
+    <circle cx="280" cy="120" r="5.5" fill="#F26522" />
+    <circle cx="300" cy="155" r="5" fill="#F26522" />
+
+    <!-- Outer Left Crescent & Navy Person -->
+    <path d="M 200 68 C 110 75, 75 165, 80 235 C 85 295, 140 350, 200 365 C 160 335, 125 285, 125 220 C 125 170, 160 120, 200 68 Z" fill="#0A2540" />
+    <!-- Navy Person Head -->
+    <circle cx="132" cy="190" r="14.5" fill="#0A2540" />
+    <!-- Left Supporting Arm Curve -->
+    <path d="M 130 206 C 120 235, 130 270, 155 290 C 145 265, 140 235, 145 210 Z" fill="#0A2540" />
+
+    <!-- Outer Right Crescent & Orange Person -->
+    <path d="M 200 68 C 290 75, 325 165, 320 235 C 315 295, 260 350, 200 365 C 240 335, 275 285, 275 220 C 275 170, 240 120, 200 68 Z" fill="#F26522" />
+    <!-- Orange Person Head -->
+    <circle cx="268" cy="190" r="14.5" fill="#F26522" />
+    <!-- Right Supporting Arm Curve -->
+    <path d="M 270 206 C 280 235, 270 270, 245 290 C 255 265, 260 235, 255 210 Z" fill="#F26522" />
+
+    <!-- Central Oak Leaf -->
+    <g transform="translate(200, 220)">
+      <!-- Leaf Silhouette (Navy) -->
+      <path d="M 0 -85 
+               C 8 -82, 16 -70, 15 -58 
+               C 28 -62, 38 -50, 36 -38 
+               C 28 -32, 24 -30, 26 -20
+               C 42 -22, 50 -10, 48 5
+               C 35 15, 28 15, 26 28
+               C 38 28, 44 42, 38 55
+               C 25 65, 15 65, 8 80
+               C 2 95, 0 110, 0 120
+               C 0 110, -2 95, -8 80
+               C -15 65, -25 65, -38 55
+               C -44 42, -38 28, -26 28
+               C -28 15, -35 15, -48 5
+               C -50 -10, -42 -22, -26 -20
+               C -24 -30, -28 -32, -36 -38
+               C -38 -50, -28 -62, -15 -58
+               C -16 -70, -8 -82, 0 -85 Z" 
+            fill="#0A2540" />
+
+      <!-- Leaf Stem and Veins (Crisp White) -->
+      <line x1="0" y1="115" x2="0" y2="-72" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+      
+      <!-- Vein Pairs -->
+      <!-- Lower Pair -->
+      <path d="M 0 52 Q 15 42, 28 40" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+      <path d="M 0 52 Q -15 42, -28 40" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+
+      <!-- Mid-Lower Pair -->
+      <path d="M 0 20 Q 20 8, 36 2" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" />
+      <path d="M 0 20 Q -20 8, -36 2" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" />
+
+      <!-- Mid Pair -->
+      <path d="M 0 -12 Q 18 -22, 34 -25" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+      <path d="M 0 -12 Q -18 -22, -34 -25" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+
+      <!-- Upper Pair -->
+      <path d="M 0 -42 Q 15 -50, 24 -56" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" />
+      <path d="M 0 -42 Q -15 -50, -24 -56" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

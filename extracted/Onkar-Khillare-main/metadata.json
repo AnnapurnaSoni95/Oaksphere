@@ -1,0 +1,6 @@
+{
+  "name": "OAKsphere Connect - Bulk Recruitment CRM",
+  "description": "High-volume recruitment CRM for bulk-hiring agencies to track candidate leads, calls, follow-ups, interviews, and joinings without losing leads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
